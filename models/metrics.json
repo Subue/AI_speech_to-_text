@@ -1,0 +1,82 @@
+{
+  "dataset_path": "C:\\Users\\HONEY_BEE\\Downloads\\ML\\data\\commands.csv",
+  "model_path": "C:\\Users\\HONEY_BEE\\Downloads\\ML\\models\\intent_model.joblib",
+  "dataset_size": 81,
+  "train_size": 60,
+  "test_size": 21,
+  "intent_count": 8,
+  "intents": [
+    "capabilities",
+    "date_query",
+    "goodbye",
+    "greeting",
+    "project_info",
+    "status_check",
+    "thanks",
+    "time_query"
+  ],
+  "accuracy": 0.8571428571428571,
+  "classification_report": {
+    "capabilities": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "date_query": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "goodbye": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "greeting": {
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1-score": 0.75,
+      "support": 3.0
+    },
+    "project_info": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 3.0
+    },
+    "status_check": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "thanks": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "time_query": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 0.8571428571428571,
+    "macro avg": {
+      "precision": 0.91875,
+      "recall": 0.8541666666666666,
+      "f1-score": 0.8592261904761904,
+      "support": 21.0
+    },
+    "weighted avg": {
+      "precision": 0.9071428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8549886621315191,
+      "support": 21.0
+    }
+  }
+}

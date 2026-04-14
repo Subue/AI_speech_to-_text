@@ -1,0 +1,82 @@
+text,intent
+hello,greeting
+hi,greeting
+hey,greeting
+good morning,greeting
+good evening,greeting
+how are you,greeting
+what is your name,project_info
+tell me about this project,project_info
+describe this assistant,project_info
+what can you do,capabilities
+show your features,capabilities
+help me understand your capabilities,capabilities
+are you working,status_check
+system status,status_check
+is everything running,status_check
+what time is it,time_query
+tell me the current time,time_query
+current time please,time_query
+can you tell me today's time,time_query
+what is today's date,date_query
+tell me the date,date_query
+current date please,date_query
+which date is today,date_query
+thank you,thanks
+thanks,thanks
+many thanks,thanks
+bye,goodbye
+goodbye,goodbye
+see you later,goodbye
+stop the assistant,goodbye
+close the application,goodbye
+who built this project,project_info
+what is this final year project about,project_info
+how does this system work,project_info
+what tasks can you handle,capabilities
+list your capabilities,capabilities
+tell me your features,capabilities
+check project status,status_check
+verify system condition,status_check
+is the assistant ready,status_check
+hello assistant,greeting
+hi there assistant,greeting
+hey assistant how are you,greeting
+good afternoon,greeting
+good night assistant,greeting
+wish me good morning,greeting
+give project overview,project_info
+explain the working of this assistant,project_info
+share details about this project,project_info
+what machine learning model do you use,project_info
+tell me about the final year system,project_info
+what are your modules,capabilities
+show available commands,capabilities
+which features are supported,capabilities
+can you assist me with commands,capabilities
+what functions do you provide,capabilities
+run a quick status check,status_check
+is the backend healthy,status_check
+is the model loaded,status_check
+confirm that the system is active,status_check
+check whether the assistant works,status_check
+tell me today's date,date_query
+show the current day and date,date_query
+what day is it today,date_query
+can you say the date,date_query
+please provide the date,date_query
+tell me the exact time,time_query
+show current clock time,time_query
+can you give me the time now,time_query
+please tell the time,time_query
+what's the time right now,time_query
+thanks for your help,thanks
+thank you so much,thanks
+I appreciate your help,thanks
+that was helpful,thanks
+thanks assistant,thanks
+exit the program,goodbye
+stop listening now,goodbye
+you can close now,goodbye
+terminate the assistant,goodbye
+see you goodbye,goodbye

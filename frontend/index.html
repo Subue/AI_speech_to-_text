@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML Voice Assistant Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <p class="eyebrow">Final Year Project</p>
+      <h1>ML Voice Assistant Dashboard</h1>
+      <p class="hero-copy">
+        Train the model, inspect metrics, test predictions, and demo a complete
+        machine learning workflow from dataset to deployment.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Try Prediction</h2>
+        <label for="commandInput">Enter a command</label>
+        <textarea id="commandInput" rows="4" placeholder="Type a command like 'what time is it'"></textarea>
+        <div class="button-row">
+          <button id="predictButton">Predict Intent</button>
+          <button id="voiceButton" class="secondary">Use Browser Voice</button>
+        </div>
+        <div id="predictionResult" class="result-box"></div>
+      </article>
+
+      <article class="card">
+        <h2>Model Training</h2>
+        <p class="muted">Retrain the classifier after updating the dataset.</p>
+        <div class="button-row">
+          <button id="trainButton">Train Model</button>
+          <button id="refreshButton" class="secondary">Refresh Metrics</button>
+        </div>
+        <div id="trainingStatus" class="result-box"></div>
+      </article>
+
+      <article class="card metrics-card">
+        <h2>Model Metrics</h2>
+        <div id="metricsPanel" class="metrics-panel"></div>
+      </article>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

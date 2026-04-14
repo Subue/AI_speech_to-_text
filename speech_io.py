@@ -49,4 +49,8 @@ def listen_for_command() -> str:
         return ""
     except (sr.RequestError, OSError):
         print("Voice input is unavailable.")
+       
         return ""
+
+
+//  add a function to check if the microphone is available

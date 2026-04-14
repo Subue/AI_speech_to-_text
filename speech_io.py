@@ -53,4 +53,4 @@ def listen_for_command() -> str:
         return ""
 
 
-//  add a function to check if the microphone is available
+
